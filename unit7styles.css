@@ -1,4 +1,4 @@
-h1 {color:#FF0000;} 
+h1, h2, h3 {color:#FF0000;} 
 a:link {color:#00FF00;}
 a:visited {color:#0000FF;}
 a:hover {color: #bfe0ff;}
