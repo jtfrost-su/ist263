@@ -27,5 +27,6 @@ header {margin: 30px;}
 .box1 {padding:.5em;}
 
 .banner {max-width: 100%;}
+.map, .form {flex-wrap: wrap;}
 
 
