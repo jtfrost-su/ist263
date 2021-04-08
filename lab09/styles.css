@@ -23,10 +23,10 @@ header {margin: 30px;}
     margin: 20px;}
 .linkedin {width: 15%;}
 .box2 {display: flex;}
-.map, .form, .address, .email {margin: 10px;}
+ .form, .address, .email {margin: 10px;}
 .box1 {padding:.5em;}
 
 .banner {max-width: 100%;}
-.map, .form {flex-wrap: wrap;}
+.box2{flex-wrap: wrap;}
 
 
