@@ -31,7 +31,11 @@ header {margin: 30px;}
 
 @media only screen and (max-width: 600px)
 
-{nav a {display:block;} }
+{nav a {display:block;} 
+    nav a {width:100%;}
+
+}
+
 
 
 
