@@ -33,7 +33,7 @@ header {margin: 30px;}
 
 {nav a {display:block;} 
     nav a {width:100%;}
-
+span {display: none;}
 }
 
 .clear {clear:both;}
