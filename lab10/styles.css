@@ -36,7 +36,8 @@ header {margin: 1.875;}
 span {display: none;}
 }
 
-.clear {clear:both;}
+
+.clear{clear:both;}
 
 #skip {
     position: absolute;
