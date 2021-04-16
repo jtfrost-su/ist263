@@ -3,14 +3,14 @@ a:link {color: #6470c9;}
 body {
     background-color:#CDEFFF;
 }
-nav {background-color:#cfa5e7;}
+nav {background-color:#000000;}
 nav a {color: #818de0;}
 nav a:hover {background-color:#DCF7F3;}
 
 nav {padding: 0.625em;}
 nav {margin-bottom: 1.875em;}
 
-p, tr, td, li, form {color:#8047b4;}
+p, tr, td, li, form {color:#231530;}
 
 .quote {float: right;}
 .clear {clear:both;}
