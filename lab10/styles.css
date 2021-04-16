@@ -1,0 +1,55 @@
+h1, h2, h3, caption, th {color:#F56991;}
+a:link {color: #6470c9;}
+body {
+    background-color:#CDEFFF;
+}
+nav {background-color:#cfa5e7;}
+nav a {color: #6470c9;}
+nav a:hover {background-color:#DCF7F3;}
+
+nav {padding: 0.625em;}
+nav {margin-bottom: 1.875em;}
+
+p, tr, td, li, form {color:#8047b4;}
+
+.quote {float: right;}
+.clear {clear:both;}
+header {float:right;}
+header {margin: 1.875;}
+
+.address {float:left;}
+.box1, .box2 {background-color: #e8c1ff; 
+    border-radius: 2em;
+    margin: 1.25em;}
+.linkedin {width: 15%;}
+.box2 {display: flex;}
+ .form, .address, .email {margin: .625em;}
+.box1 {padding:.5em;}
+
+.banner {max-width: 100%;}
+.box2 {flex-wrap: wrap;}
+
+@media only screen and (max-width: 37.5em)
+
+{nav a {display:block;} 
+    nav a {width:100%;}
+span {display: none;}
+}
+
+.clear {clear:both;}
+
+#skip {
+    position: absolute;
+    left: -999px;
+    background-color: white;
+    border: 1px solid black;                        
+    }
+#skip:focus {
+    position: absolute;
+    left: 10px;
+    }
+
+
+
+
+

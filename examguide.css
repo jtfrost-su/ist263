@@ -1,0 +1,123 @@
+/* would have more weight and override */
+h1 {color: red;}
+h1.special {color:lime;} 
+
+/* Pseudo-Selectors */
+    
+        a:link {color:hotpink;}
+        a:visited {color:#0000ff;}
+        a:hover {color:green; }
+    
+/* Class Selector Style all <p> elements with class="hometown":*/
+p.hometown {
+    background-color: yellow;
+  }
+
+  .oneoff.hover{
+    color: #828282;
+    background-color: #800080;
+text-decoration: wavy;
+} 
+
+/* Element Selector */
+nav {color:#828282;}
+
+/* ID selector */
+#myheading {color:pink}
+
+/* Group Selector */
+.map, .form,.address, .email {margin: 10px;}
+p, tr, td, li, form {color:#8047b4;}
+
+/* Descendent Selector selects all <p> elements  inside <div> elements:
+ */
+li em {color: olive;}
+nav a {color: #6470c9;}
+div p {
+    background-color: yellow;
+
+/* Background color */
+body {background-color:#0000FF;}
+
+/* Padding
+    applies to all sides
+    clockwise */
+blockquote { padding: 10px;}
+blockquote { padding: 10px 6px 4px 10px;}
+
+/* Margin */
+.box1, .box2 {background-color: #e8c1ff; 
+    border-radius: 2em;
+    margin: 20px;}
+
+/* Display block */
+nav a {display:block;} 
+
+/* Box Model */
+p {
+    background-color:#ffb6c1;
+    width: 300px; 
+    padding: 20px; 
+    margin: 50px;
+    border: 5px solid #0000;}
+
+/* named div tags from HTML styled in CSS */
+    .box1, .box2 {background-color: #e8c1ff; 
+        border-radius: 2em;
+        margin: 20px;}
+    .box2 {display: flex;}
+    .form, .address, .email {margin: 10px;}
+    .box1 {padding:.5em;}
+    .box2 {flex-wrap: wrap;}
+    
+/* Span */
+@media only screen and (max-width: 600px)
+{nav a {display:block;} 
+    nav a {width:100%;}
+    span {display: none;} }
+
+/* Float */
+.quote {float: right;}
+.clear {clear:both;}
+
+ img {float:right;
+margin: 1em;}
+.clear {clear:both;}
+
+/*Clearing flotas*/
+.firstimage {float: left;}
+.stopfloat {clear:both;} 
+/* in html, img has these two class names
+.stopfloat stops following 
+text from wrapping around it*/
+
+.clear {clear:both;}
+
+/* flex wrap */
+ .box2 {flex-wrap: wrap;}
+
+ /* flex box* LOOK AT UNIT 8 NOTES 
+ assigns first, second, third colums inside
+ 2 rows
+    2 rows can be styled as well as columns within them
+LOOK AT UNIT 8 NOTES to see how they are styled
+ /
+
+
+ /* Media Query */
+ @media only screen and (max-width: 600px)
+ /* the above specifies the styles underneath apply only
+ to small phones *
+ 
+ max width scales to fit viewport*/
+ 
+{nav a {display:block;} 
+    nav a {width:100%;}
+span {display: none;}
+}
+ 
+div a:link {color:#00FF00;}
+
+
+body {color:#00FF00;}
+ 
