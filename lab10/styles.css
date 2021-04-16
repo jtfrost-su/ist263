@@ -4,8 +4,8 @@ body {
     background-color:#CDEFFF;
 }
 nav {background-color:#000000;}
-nav a {color: #9696C0;}
-nav a:hover {background-color:#ffffff;}
+nav a {color: #ffffff;}
+nav a:hover {background-color:#8047b4;}
 
 nav {padding: 0.625em;}
 nav {margin-bottom: 1.875em;}
