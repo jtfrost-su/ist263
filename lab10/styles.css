@@ -1,10 +1,10 @@
-h1, h2, h3, caption, th {color:#F56991;}
+h1, h2, h3, caption, th {color:#8047b4;}
 a:link {color: #6470c9;}
 body {
     background-color:#CDEFFF;
 }
 nav {background-color:#cfa5e7;}
-nav a {color: #6470c9;}
+nav a {color: #818de0;}
 nav a:hover {background-color:#DCF7F3;}
 
 nav {padding: 0.625em;}
