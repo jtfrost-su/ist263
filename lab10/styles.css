@@ -1,5 +1,5 @@
 h1, h2, h3, caption, th {color:#8047b4;}
-a:link {color: #5965b9;}
+a:link {color: #454c81;}
 body {
     background-color:#CDEFFF;
 }
@@ -41,13 +41,13 @@ span {display: none;}
 
 #skip {
     position: absolute;
-    left: -999px;
+    left: -62.4375em;
     background-color: white;
-    border: 1px solid black;                        
+    border: .0625em solid black;                        
     }
 #skip:focus {
     position: absolute;
-    left: 10px;
+    left:.625em;
     }
 
 
