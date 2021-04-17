@@ -8,6 +8,7 @@ body {
 nav {background-color:#cea8ff;}
 nav a {color: #000000;}
 nav a:hover {background-color:#ffffff;}
+nav a:visited{color:black;}
 
 nav {padding: 0.625em;}
 nav {margin-bottom: 1.875em;}
