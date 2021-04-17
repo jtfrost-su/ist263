@@ -1,5 +1,7 @@
 h1, h2, h3, caption, th {color:#8047b4;}
 a:link {color: #454c81;}
+nav a:visited {color:ghostwhite;}
+.email:visited {color:ghostwhite;}
 body {
     background-color:#CDEFFF;
 }
