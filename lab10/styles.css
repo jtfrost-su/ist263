@@ -5,9 +5,9 @@ a:link {color: #454c81;}
 body {
     background-color:#CDEFFF;
 }
-nav {background-color:#000000;}
-nav a {color: #ffffff;}
-nav a:hover {background-color:#9959d4;}
+nav {background-color:#ac88db;}
+nav a {color: #000000;}
+nav a:hover {background-color:#ffffff;}
 
 nav {padding: 0.625em;}
 nav {margin-bottom: 1.875em;}
