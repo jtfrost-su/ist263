@@ -1,0 +1,31 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Unit 11 Javascript Participation</title>
+    
+    <script>
+ function Leaving() {
+     //alert you left this form element
+    document.getElementById("message").innerHTML="you left this form element";
+
+ }
+
+    </script>   
+
+    </head>
+    <body>
+    
+        <form action="mailto:jessicataylorfrost@gmail.com" method="POST">
+            <label for="first">Enter first name:</label>
+            <input type="text" name="first" id="first" onblur="Leaving();">
+            <label for="last">Enter last name:</label>
+            <input type="text" name="last" id="last">
+
+        <input type="submit" value="Send Application">
+        </form>
+        <p>Lorem Ipsum</p>
+        <div id="message"></div> <!--this is where I'm gonna bring up the message, empty div tag used to identify
+        locating tag that has ID of message, change inner HTML-->
+    </body>
+    </html>
