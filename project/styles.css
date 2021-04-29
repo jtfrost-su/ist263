@@ -1,0 +1,62 @@
+body { background-color: #953553;}
+body {font-family:monospace;}
+
+nav {background-color:#f7dbfd;}
+nav {padding: 1em;}
+nav {border-radius: .5em;}
+nav a {padding:3em;}
+nav {margin-bottom: 1.875em;}
+nav a {color:black;}
+nav a {font-weight: bold;}
+nav a:hover{color:rgb(185, 5, 95);}
+nav a {display:inline;}
+
+
+h1, h2, h3 {color:#ffffff;}
+h1, h2 {text-align:center;}
+.logo {border-radius: 1em;}
+
+/*Business, Fashion, Law div tags and styles*/
+
+.fashiondesigners {padding:1em;}
+.outfitpic {float:left;
+padding: .75em;
+}
+
+.stopfloat {clear:both;}
+
+.outfitside {float: right;
+    display:flex;
+    flex-wrap: wrap;
+    margin: .5em;
+}
+
+
+.passion {padding: .75em;
+background-color:palevioletred;}
+
+
+.blogpost {padding: 1em;}
+
+.text {background-color: palevioletred;
+padding: 1em;}
+
+.footer {background-color:#f7dbfd;
+    padding: 1em;}
+
+
+/*Rachel's Choice*/
+
+/*About/Contact*/
+.rachelbio, .experience, .contact {background-color:#f7dbfd;
+padding: .75em;
+}
+
+a {color:#ffffff;}
+
+.contactlink, .sourcelink {color:black;}
+.books {float:right;}
+.stopfloat {clear:left;}
+
+
+
