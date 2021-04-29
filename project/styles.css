@@ -55,6 +55,7 @@ padding: .75em;
 a {color:#ffffff;}
 
 .contactlink, .sourcelink {color:black;}
+.sourcelink {background-color:white;}
 .books {float:right;}
 .stopfloat {clear:left;}
 
