@@ -1,3 +1,8 @@
+.logo {display: block;
+    margin-left:auto;
+    margin-right:auto;
+    }
+
 body { background-color: #953553;}
 body {font-family:monospace;}
 
@@ -47,17 +52,34 @@ padding: 1em;}
 
 /*Rachel's Choice*/
 
+.law, .fashion, .business {background-color: black;}
+
+.ohlawlawslogan {display: block;
+    margin-left:auto;
+    margin-right:auto;
+    }
+
+h4 {color:thistle;}
+p, h4 {padding:.75em;}
+
 /*About/Contact*/
 .rachelbio, .experience, .contact {background-color:#f7dbfd;
 padding: .75em;
 }
 
 a {color:#ffffff;}
-
+.choiceintro {background-color:#f7dbfd;}
 .contactlink, .sourcelink {color:black;}
-.sourcelink {background-color:white;}
+.sourcelink {background-color:white;
+padding: .5em;}
 .books {float:right;}
 .stopfloat {clear:left;}
+
+
+
+
+
+
 
 
 
