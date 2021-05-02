@@ -104,6 +104,9 @@ padding: .5em;}
     max-width: 100%;
   }
 
+  #comments {overflow:hidden;
+max-width:100%;}
+
 
 
 
