@@ -1,25 +1,37 @@
-.logo {display: block;
-    margin-left:auto;
-    margin-right:auto;
-    }
+@media only screen and (max-width: 37.5em)
+{nav a {display:block;} 
+    nav a {width:100%;}
+    nav a {padding: 0.2;}
+    nav {margin-bottom:.2em;}
+span {display: none;}
+}
 
+.logo {display: block;}   
 body { background-color: #953553;}
-body {font-family:monospace;}
+body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
-nav {background-color:#f7dbfd;}
-nav {padding: 1em;}
-nav {border-radius: .5em;}
-nav a {padding:3em;}
-nav {margin-bottom: 1.875em;}
-nav a {color:black;}
-nav a {font-weight: bold;}
+nav {background-color:#f7dbfd;
+    padding:1em;
+    border-radius: .5em;
+    margin-bottom: 1em;
+    display:block;
+}
+nav a {padding: 2em;
+    color:black;
+    font-weight:bold;
+    width:100%
+    
+}
+.footer {font-weight:bold;}
 nav a:hover{color:rgb(185, 5, 95);}
-nav a {display:inline;}
-
 
 h1, h2, h3 {color:#ffffff;}
 h1, h2 {text-align:center;}
-.logo {border-radius: 1em;}
+a {padding:1em;
+margin-bottom:1em;}
+
+li {padding:.3em;}
+
 
 /*Business, Fashion, Law div tags and styles*/
 
@@ -29,13 +41,11 @@ padding: .75em;
 }
 
 .stopfloat {clear:both;}
-
 .outfitside {float: right;
     display:flex;
     flex-wrap: wrap;
     margin: .5em;
 }
-
 
 .passion {padding: .75em;
 background-color:palevioletred;}
@@ -52,7 +62,8 @@ padding: 1em;}
 
 /*Rachel's Choice*/
 
-.law, .fashion, .business {background-color: black;}
+.law,.business {background-color: black;
+padding:2em;}
 
 .ohlawlawslogan {display: block;
     margin-left:auto;
@@ -64,8 +75,8 @@ p, h4 {padding:.75em;}
 
 /*About/Contact*/
 .rachelbio, .experience, .contact {background-color:#f7dbfd;
-padding: .75em;
-}
+    padding: .75em;
+    }
 
 a {color:#ffffff;}
 .choiceintro {background-color:#f7dbfd;}
@@ -74,6 +85,31 @@ a {color:#ffffff;}
 padding: .5em;}
 .books {float:right;}
 .stopfloat {clear:left;}
+
+/*Mission/Principles*/
+.mheader {text-align:center;}
+.mission,.numbers {background-color:#f7dbfd;
+    border-radius:0.5em;
+}
+.principles, .ethics {background-color:palevioletred;
+    border-radius:.5em;
+}
+
+
+.ethics, .footer {padding:.5em;}
+#setonhall {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+
+
+
+
+
+
 
 
 
