@@ -1,8 +1,8 @@
 @media only screen and (max-width: 37.5em)
 {nav a {display:block;} 
     nav a {width:100%;}
-    nav a {padding: 0.2;}
-    nav {margin-bottom:.2em;}
+    nav a {padding: none;}
+    nav {margin-bottom: none;}
 span {display: none;}
 .books, .sourcelink {float:none;}
 }
