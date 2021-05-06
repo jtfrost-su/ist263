@@ -4,6 +4,7 @@
     nav a {padding: 0.2;}
     nav {margin-bottom:.2em;}
 span {display: none;}
+.books, .sourcelink {float:none;}
 }
 
 .logo {display: block;}   
