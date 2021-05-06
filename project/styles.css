@@ -95,9 +95,10 @@ padding: .5em;}
 .principles, .ethics {background-color:palevioletred;
     border-radius:.5em;
 }
+.ethics, .footer {padding:1em;}
 
 
-.ethics, .footer {padding:.5em;}
+
 #setonhall {
     display: block;
     margin-left: auto;
