@@ -5,10 +5,10 @@
     nav {margin-bottom: none;}
 span {display: none;}
 .books, .sourcelink {float:none;}
-nav {margin: 0em 0em 0em 0em auto;}
+nav a {margin: 0 auto;}
 }
 
-
+body {font-family: 'Girassol', cursive;}
 .logo {display: block;}   
 body { background-color: #953553;}
 body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
