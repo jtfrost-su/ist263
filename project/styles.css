@@ -1,10 +1,12 @@
 @media only screen and (max-width: 37.5em)
 {nav a {display:block;} 
     nav a {width:100%;}
-    nav a {padding: none;}
+    nav a {padding: 0em;}
     nav {margin-bottom: none;}
 span {display: none;}
 .books, .sourcelink {float:none;}
+.sourcelink {display:block;
+width:100%}
 nav a {margin: 0 auto;}
 }
 
@@ -40,7 +42,7 @@ li {padding:.3em;}
 
 .fashiondesigners {padding:1em;}
 .outfitpic {float:left;
-padding: .75em;
+padding: .5em;
 }
 
 .stopfloat {clear:both;}
@@ -87,7 +89,8 @@ a {color:#ffffff;}
 .sourcelink {background-color:white;
 padding: .5em;}
 .books {float:right;}
-.stopfloat {clear:left;}
+.clearfloat {clear:left;}
+.sourcelink a {color:black;}
 
 /*Mission/Principles*/
 .mheader {text-align:center;}
@@ -98,6 +101,7 @@ padding: .5em;}
     border-radius:.5em;
 }
 .ethics, .footer {margin:1em;}
+.ethics {padding:1em;}
 
 
 
