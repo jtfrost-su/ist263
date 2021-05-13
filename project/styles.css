@@ -9,12 +9,12 @@ span {display: none;}
 width:100%}
 
 }
- .nav {margin:0 auto;}
+ 
 
-body {font-family: 'Girassol', cursive;}
+body {font-family: 'Zilla Slab', serif;}
 .logo {display: block;}   
 body { background-color: #953553;}
-body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
 
 nav {background-color:#f7dbfd;
     padding:1em;
@@ -22,7 +22,7 @@ nav {background-color:#f7dbfd;
     margin-bottom: 1em;
     display:block;
 }
-nav a {padding: 2em;
+nav a {padding: 1em;
     color:black;
     font-weight:bold;
     width:100%
@@ -47,10 +47,9 @@ padding: .5em;
 }
 
 .stopfloat {clear:both;}
-.outfitside {float: right;
-    display:flex;
-    flex-wrap: wrap;
-    margin: .5em;
+.outfitside {display:flex;
+   justify-content:center;
+    margin: 0 auto;
 }
 
 .passion {padding: .75em;
@@ -66,6 +65,8 @@ padding: 1em;}
     padding: 1em;}
 
 
+
+
 /*Rachel's Choice*/
 
 .law,.business {background-color: black;
@@ -78,6 +79,7 @@ padding:2em;}
 
 h4 {color:thistle;}
 p, h4 {padding:.75em;}
+.piclink {color:black;}
 
 /*About/Contact*/
 .rachelbio, .experience, .contact {background-color:#f7dbfd;
