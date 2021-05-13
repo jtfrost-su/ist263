@@ -5,10 +5,11 @@
     nav {margin-bottom: none;}
 span {display: none;}
 .books, .sourcelink {float:none;}
-.sourcelink {display:block;
+.sourcelink {display:inline-block;
 width:100%}
-nav a {margin: 0 auto;}
+
 }
+ .nav {margin:0 auto;}
 
 body {font-family: 'Girassol', cursive;}
 .logo {display: block;}   
@@ -85,9 +86,10 @@ p, h4 {padding:.75em;}
 
 a {color:#ffffff;}
 .choiceintro {background-color:#f7dbfd;}
-.contactlink, .sourcelink {color:black;}
-.sourcelink {background-color:white;
-padding: .5em;}
+.contactlink {color:black;}
+.sourcelink  {background-color:white;
+margin-top:2em;
+padding:1em;}
 .books {float:right;}
 .clearfloat {clear:left;}
 .sourcelink a {color:black;}
@@ -102,8 +104,6 @@ padding: .5em;}
 }
 .ethics, .footer {margin:1em;}
 .ethics {padding:1em;}
-
-
 
 #setonhall {
     display: block;
