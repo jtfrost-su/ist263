@@ -6,6 +6,9 @@
     nav {padding:0em;}
     nav {border-radius:0em;}
     nav a {margin:0em;}
+.books {display:flex;
+flex-wrap: wrap;
+margin: 1em;}
   
 span {display: none;}
 .books, .sourcelink {float:none;}
