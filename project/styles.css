@@ -7,26 +7,18 @@
     nav {border-radius:0em;}
     nav a {margin:0em;}
     
-.books {display:flex;
-flex-wrap: wrap;}
+.books {display:block;
+    width: 100%;}
 
-
-.list {padding:.5em;
-display:block;
-width:100%;}
-  
 span {display: none;}
 
 .books, .sourcelink {float:none;}
-.books {display:inline-block;
-width:100%;
-justify-content: center;}
+
 .sourcelink {display:inline-block;
 width:100%}
 
 }
  
-
 body {font-family: 'Zilla Slab', serif;}
 .logo {display: block;}   
 body { background-color: #953553;}
@@ -109,7 +101,8 @@ border-radius: 1em;}
 .rachelbio, .experience, .contact {background-color:#f7dbfd;
     padding: .75em;
     }
-.piclink {padding:.5em;}
+.piclink {padding:.5em;
+display:block;}
 
 a {color:#ffffff;}
 .choiceintro {background-color:#f7dbfd;}
@@ -117,10 +110,15 @@ a {color:#ffffff;}
 .sourcelink  {background-color:white;
 margin-top:2em;
 padding:1em;}
-.books {float:right;
-margin-bottom: 1em;}
+.books img {display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 100%;
+border-radius:1em;
+}
 .clearfloat {clear:both;}
 .sourcelink a {color:black;}
+
 
 /*Mission/Principles*/
 .mheader {text-align:center;}
