@@ -8,6 +8,13 @@
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Zilla+Slab:wght@500&display=swap" rel="stylesheet">
+
+<script>
+function Thanks () {
+        alert ('Thank you for contacing us...we will get back to you soon!')
+    }
+</script>
+    
     </head>
 <body>
  <figure><img src="images/logo.jpg" width="170" height="100" alt="thelegalrunwaylogo" class="logo"> </figure>
@@ -32,9 +39,6 @@
 </p>
 </div>
 </section>
-<div class="books">
-    <figure><img src="images/books.jpg" width="270" height="360" alt="heelsonlawbooks"> </figure>
-</div> 
 
 <div class="clearfloat"></div>
 <div class="sourcelink">
@@ -45,6 +49,9 @@
 
 <h3>Past experience includes:</h3>
 <div class="experience">
+    <div class="books">
+        <figure><img src="images/books.jpg" width="220" height="310" alt="heelsonlawbooks"> </figure>
+    </div> 
     <ul>
         <li>Law clerk and summer associate at Greenbaum Rowe Smith & Davis, LLP.</li>
         <li>Legal extern to the Section Chief of Data Privacy and Cybersecurity in the New Jersey Office of the Attorney General. </li>
@@ -76,7 +83,7 @@ Any and all inquiries can be received and tended to via:
                 <label for="comments">Enter your inquiries:</label><br>
             <textarea name="comments" id="comments" rows="10" cols="100"> Ask or tell us anything!
             </textarea> <br>
-            <input type="submit" value="Send Application">
+            <input type="submit" value="Submit" onclick="Thanks();"> 
             </form>
         </li>
     </ul>

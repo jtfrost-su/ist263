@@ -1,11 +1,17 @@
 @media only screen and (max-width: 37.5em)
-{nav a {display:block;} 
-    nav a {width:100%;}
+{
+    nav a {display:block;} 
     nav a {padding: 0em;}
     nav {margin-bottom: none;}
     nav {padding:0em;}
+    nav {border-radius:0em;}
+    nav a {margin:0em;}
+  
 span {display: none;}
 .books, .sourcelink {float:none;}
+.books {display:block;
+width:100%;
+justify-content: center;}
 .sourcelink {display:inline-block;
 width:100%}
 
@@ -17,7 +23,8 @@ body {font-family: 'Zilla Slab', serif;}
 body { background-color: #953553;}
 
 
-nav {background-color:#f7dbfd;
+nav {text-align: center;
+    background-color:#f7dbfd;
     padding:1em;
     border-radius: .5em;
     margin-bottom: 1em;
@@ -45,12 +52,14 @@ li {padding:.3em;}
 .fashiondesigners {padding:1em;}
 .outfitpic {float:left;
 padding: .5em;
+
 }
 
 .stopfloat {clear:both;}
 .outfitside {display:flex;
    justify-content:center;
     margin: 0 auto;
+    border-radius:1em;
 }
 
 .passion {padding: .75em;
@@ -64,9 +73,6 @@ padding: 1em;}
 
 .footer {background-color:#f7dbfd;
     padding: 1em;}
-
-
-
 
 /*Rachel's Choice*/
 
@@ -94,8 +100,9 @@ a {color:#ffffff;}
 .sourcelink  {background-color:white;
 margin-top:2em;
 padding:1em;}
-.books {float:right;}
-.clearfloat {clear:left;}
+.books {float:right;
+margin-bottom: 1em;}
+.clearfloat {clear:both;}
 .sourcelink a {color:black;}
 
 /*Mission/Principles*/
@@ -106,19 +113,21 @@ padding:1em;}
 .principles, .ethics, .footer{background-color:palevioletred;
     border-radius:.5em;
 }
-.ethics, .footer {margin:1em;}
-.ethics {padding:1em;}
+.footer {margin:1em;}
+.principles, .numbers, .ethics, .mission {padding:1em;
+margin:1em;}
 
 #setonhall {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
+    border-radius:1em;
   }
 
   #comments {overflow:hidden;
 max-width:100%;}
-
+.mission p {text-align:center;}
 
 
 
