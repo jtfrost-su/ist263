@@ -77,16 +77,21 @@ padding: 1em;}
 /*Rachel's Choice*/
 
 .law,.business {background-color: black;
-padding:2em;}
+padding:1em;}
+.fashion {padding:1em;}
 
 .ohlawlawslogan {display: block;
     margin-left:auto;
     margin-right:auto;
+    border-radius: 1em;
     }
 
 h4 {color:thistle;}
 p, h4 {padding:.75em;}
 .piclink {color:black;}
+.choiceintro {padding:1em;
+text-align:center;}
+
 
 /*About/Contact*/
 .rachelbio, .experience, .contact {background-color:#f7dbfd;
