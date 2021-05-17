@@ -9,7 +9,7 @@
   
 span {display: none;}
 .books, .sourcelink {float:none;}
-.books {display:block;
+.books {display:inline-block;
 width:100%;
 justify-content: center;}
 .sourcelink {display:inline-block;
