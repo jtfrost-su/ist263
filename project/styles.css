@@ -6,11 +6,17 @@
     nav {padding:0em;}
     nav {border-radius:0em;}
     nav a {margin:0em;}
+    
 .books {display:flex;
-flex-wrap: wrap;
-margin: 1em;}
+flex-wrap: wrap;}
+
+
+.list {padding:.5em;
+display:block;
+width:100%;}
   
 span {display: none;}
+
 .books, .sourcelink {float:none;}
 .books {display:inline-block;
 width:100%;
