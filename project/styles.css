@@ -10,6 +10,10 @@ span {display: none;}
 
 .books, .sourcelink {float:none;}
 
+
+.books img {max-width:100%;}
+
+#setohall img {max-width:100%;}
 }
 /*all text*/
 h3 {text-align:center;}
